@@ -1,0 +1,25 @@
+{
+  "name": "shop-barcode-generator",
+  "version": "1.0.0",
+  "description": "Generate bar code Grocery Shop and write into the word file so that you can print out the file",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "config" : { 
+   "barCodeImg" : "barcode",
+   "barCodeImgExt" : "png",
+   "barCodeWords": "Lunch Pack,Baklawa",
+   "width" : 180,
+   "height": 50,
+   "codeType": "code128",
+   "docxName" : "docs/barcode.docx" 
+ },
+ "dependencies": {
+    "officegen": "^0.4.0",
+    "barcode": "0.1.0"
+  },
+  "author": "Amjad Khan",
+  "license": "ISC"
+}
