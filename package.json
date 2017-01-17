@@ -10,7 +10,7 @@
   "config" : { 
    "barCodeImg" : "barcode",
    "barCodeImgExt" : "png",
-   "barCodeWords": "Lunch Pack,Baklawa",
+   "barCodeWords": "Lunch Pack,Baklawa,Tomato,Onion,Potato,Lemon,Cilantro",
    "width" : 180,
    "height": 50,
    "codeType": "code128",
